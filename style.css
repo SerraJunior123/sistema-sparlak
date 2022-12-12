@@ -63,3 +63,11 @@ input[type=text] {
     color: aliceblue;
     
 }
+.form1{
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+}
