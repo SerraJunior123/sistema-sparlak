@@ -69,5 +69,5 @@ input[type=text] {
     margin: auto;
     width: 600px;
     height: 400px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
