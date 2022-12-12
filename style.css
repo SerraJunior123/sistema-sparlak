@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+
+}
+
+.cabeça{
+   
+    display: block;
+
+    width: 100%;
+    height: 200px;
+  text-align: center;
+  color: aliceblue;
+  font-size: larger;
+
+}
+.cabeça img{
+    
+   display: block;
+   margin: auto;
+   padding-top: 10px;
+    
+    
+    
+
+    width: 400px;
+    height: 150px;
+}
+
+body{
+    background-image:url(img/segurança-abstrata-da-tecnologia-no-fundo-da-rede-global-ilustração-do-vetor-51471319.jpg);
+    background-repeat: repeat;
+}
+input[type=text] {
+
+    height: 25px;
+    border-radius: 10px;
+    
+}
+.container{
+    width: 660px;
+    padding-left: 350px;
+    padding-top: 50px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.conteudo1{
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(66, 66, 66);
+    border-style: double ;
+    border-radius: 10px;
+    margin: 14px;
+    text-align: center;
+    padding-top: 40px;
+    padding: 5px;
+    color: aliceblue;
+    
+}
