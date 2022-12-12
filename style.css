@@ -63,11 +63,38 @@ input[type=text] {
     color: aliceblue;
     
 }
+.btn:hover{
+    cursor: pointer;
+    margin: 30px;
+    margin-left: 250px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(80, 80, 80);
+    
+    
+
+
+}
 .form1{
+    
+    
     padding: 10px;
     border-radius: 10px;
     margin: auto;
     width: 600px;
-    height: 400px;
+    height: 260px;
     background-color: rgb(255, 255, 255);
+}
+
+.btn{
+    cursor: pointer;
+    margin: 30px;
+    margin-left: 250px;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(160, 160, 160);
 }
