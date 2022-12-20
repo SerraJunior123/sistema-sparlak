@@ -7,6 +7,12 @@
 
 }
 body{
+    
+ background-image: url("img\WhatsApp Image 2022-12-13 at 12.40.40 PM.jpeg");
+
+      
+       
+
    
      
    
@@ -36,11 +42,7 @@ height: 200px;
     height: 150px;
 }
 
-body{
-   
- 
-  
-}
+
 input[type=text] {
 
     height: 25px;
@@ -62,8 +64,6 @@ input[type=text] {
 
 }
 .container{
-  
-    box-sizing: border-box;
     width: 660px;
     padding-left: 350px;
     padding-top: 50px;
@@ -96,9 +96,6 @@ input[type=text] {
     
 }
 .conteudo1{
-    box-shadow: 2px 2px 2px 2px inset rgb(75, 0, 0);
-    position: 2px;
-    box-sizing: border-box;
     cursor: pointer;
     width: 150px;
     height: 60px;
