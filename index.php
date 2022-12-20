@@ -49,6 +49,7 @@
 
 	<body>
 		
+		
 
 		<!-- Static navbar -->
 	    <nav class="navbar navbar-default navbar-static-top">
@@ -60,13 +61,13 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
-	          <img src="imagens/icone_twitter.png" />
+	          <img src="imagens/cadeado.png" />
 	        </div>
 	        
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
 	            
-	            <li class="<?= $erro == 1 ? 'open' : '' ?>">
+	            <li class="<?= $erro == 1 ? '' : '' ?>">
 	            	<a id="entrar" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Entrar</a>
 					<ul class="dropdown-menu" aria-labelledby="entrar">
 						<div class="col-md-12">
@@ -94,13 +95,17 @@
 							?>
 
 						</form>
+
 				  	</ul>
 	            </li>
+			
 	          </ul>
+			  
 	        </div><!--/.nav-collapse -->
 	      </div>
 	    </nav>
-
+		<div class="BEM">ACESSO RESTRITO <br>
+			SAPARLAK-SISTEMA</div>
 
 	    <div class="container">
 

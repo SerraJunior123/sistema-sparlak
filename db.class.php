@@ -6,13 +6,13 @@ class db {
 	private $host = 'localhost';
 
 	//usuario
-	private $usuario = 'root';
+	private $usuario = 'id20019990_sistema2023';
 
 	//senha
-	private $senha = '';
+	private $senha = 'JM3\oD1)~bylC!&R';
 
 	//banco de dados
-	private $database = 'sparlak';
+	private $database = 'id20019990_dbsparlak';
 
 	public function conecta_mysql(){
 
