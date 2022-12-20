@@ -18,7 +18,7 @@
 		if(isset($dados_usuario['usuario'])){
 			header('Location: index2.php');
 		} else {
-			header('Location: index.php?erro=1');
+		echo('CREDENCIAIS NÃO CONFERE');
 		}
 	} else {
 		echo 'Erro na execução da consulta, favor entrar em contato com o admin do site';
