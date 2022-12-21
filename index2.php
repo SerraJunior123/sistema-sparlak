@@ -17,7 +17,7 @@
 
  <div class="container"> 
   <a href="visitas.php"><div class="conteudo1"> CADASTRO </div></a>
-   <a href="cadastro.html"><div class="conteudo1" input type="button"  > OCORRÊNCIA </div></a>
+   <a href="ocorrencia.html"><div class="conteudo1" input type="button"  > OCORRÊNCIA </div></a>
    <div class="conteudo1" input type="button" > ENTREGA  </div>
  
    <div class="conteudo1">CLAVICULÁRIO  </div>

@@ -1,5 +1,5 @@
 <?php
-	require('index2.php');
+
 	require_once('db.class.php');
 
 	$usuario = $_POST['usuario'];
@@ -18,7 +18,7 @@
 		if(isset($dados_usuario['usuario'])){
 			header('Location: index2.php');
 		} else {
-		echo('CREDENCIAIS NÃO CONFERE');
+			echo('Credencial Inválida.');
 		}
 	} else {
 		echo 'Erro na execução da consulta, favor entrar em contato com o admin do site';

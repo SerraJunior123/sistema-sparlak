@@ -12,7 +12,7 @@
 
 <div class="fundo">
   <h1>CADASTRO ENVIADO COM SUCESSO </h1>
-  <a href="index.php"><input type="button" value="VOLTAR"> </a>
+  <a href="visitas.php"><input type="button" value="VOLTAR"> </a>
 </div>
   
 </body>

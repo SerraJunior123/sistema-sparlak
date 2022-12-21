@@ -10,16 +10,15 @@
 	<head>
 		<meta charset="UTF-8">
 
-		<title>////SPARLAK-SISTEMAS</title>
+		<title>//S P A R L A K//</title>
 
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 		<!-- bootstrap - link cdn -->
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
-		
-		
 	
 		<script>
 			$(document).ready( function(){
@@ -30,7 +29,7 @@
 					var campo_vazio = false;
 
 					if($('#campo_usuario').val() == ''){
-						$('#campo_usuario').css({'border-color': 'red'});
+						$('#campo_usuario').css({'border-color': '#A94442'});
 						campo_vazio = true;
 					} else {
 						$('#campo_usuario').css({'border-color': '#CCC'});
@@ -50,8 +49,6 @@
 	</head>
 
 	<body>
-		
-		
 
 		<!-- Static navbar -->
 	    <nav class="navbar navbar-default navbar-static-top">
@@ -69,7 +66,7 @@
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
 	            
-	            <li class="<?= $erro == 1 ? '' : '' ?>">
+	            <li class="<?= $erro == 1 ? 'CLOSE' : '' ?>">
 	            	<a id="entrar" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Entrar</a>
 					<ul class="dropdown-menu" aria-labelledby="entrar">
 						<div class="col-md-12">
@@ -97,32 +94,21 @@
 							?>
 
 						</form>
-
 				  	</ul>
 	            </li>
-			
 	          </ul>
-			  
 	        </div><!--/.nav-collapse -->
 	      </div>
 	    </nav>
 		<div class="BEM">ACESSO RESTRITO <br>
-			SAPARLAK-SISTEMA</div>
+						 ENTRE COM USUÁRIO E SENHA </div>
 
-	    <div class="container">
 
-	      <!-- Main component for a primary marketing message or call to action -->
-	      </p>
-	      </div>
-
-	      <div class="clearfix"></div>
-		</div>
 
 
 	    </div>
 	
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="css/style.css">
-	</body>
 	
+	</body>
 </html>
