@@ -156,19 +156,9 @@ input[type=text] {
     width: 600px;
     height: 260px;
     background-color: rgb(141, 141, 141);
+    
 }
-.form2{
-    display: block;
-    box-shadow: 6px 6px 6px black;
-    padding: 30px;
-    border-radius: 10px;
-    margin: auto;
-    width: 600px;
-    height: 400px;
-    background-color: rgb(141, 141, 141);
 
-
-}
 
 
 .btn{
