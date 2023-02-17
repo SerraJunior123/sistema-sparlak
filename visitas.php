@@ -1,11 +1,5 @@
 
-  <?php
 
-
- 
-  
-
-  ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,11 +10,14 @@
     <link rel="stylesheet" href="style.css">
    
    
+   
     <title>:::Visitantes:::</title>
 </head>
 <body>
     <div class="cabeça">
         <img src="img/SPARLAK SEM FUNDO.png" alt="">
+        <a href="index2.php"><input type="button" style="padding: 10px; cursor: pointer; background-color: rgb(150, 0, 0); color: rgb(255, 255, 255); border-radius: 10px; "  value="INICIO"></a>
+        
 
     </div>
   
@@ -39,6 +36,7 @@
         <label for="">
         FOTO<input type="file" name="arquivo"></label>
       <input type="submit" name="enviado" value="ENVIAR" class="btn">
+      
        </label>
     
     </form>
